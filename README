@@ -1,1 +1,3 @@
 Takes a PBS csv feed of station information, airdate info etc and does xml generation and two xsl transforms to create an HTML output
+
+Meant to be used in a rails project to allow csv file upload, hence reference to controller and active record.  
