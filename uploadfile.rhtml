@@ -1,0 +1,9 @@
+<h1>File Upload</h1>h1>
+<%= form_tag({:action => 'uploadFile'}, :multipart => true) %>
+<p>
+<%= label_tag 'upload_file', 'Select File' %>
+<%= file_field 'upload', 'datafile' %>
+</p>
+<p>Jordan <%= check_box_tag 'jordan_template' %></p>
+
+<%= submit_tag "Upload" %>
